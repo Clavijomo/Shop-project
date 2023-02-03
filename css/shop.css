@@ -1,0 +1,136 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;   
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+:root{
+    --black-color: #000;
+    --white-rare: #faf7f1;
+    --title-text: 37px;
+    --small-text: 15px;
+    --header-text: 85px;
+}
+/* Header */
+.section-nav{    
+    background-color: #fff;
+    max-width: 100%;
+    width: 100%; 
+}   
+nav{
+    background-color: #fff;    
+    display: grid;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;    
+    gap: 30px;
+}
+.list-nav{
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.list-nav:hover{
+    color: #a9a9a9;
+    transition: all 0.3s;
+}
+.icon h1{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.right ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.list-nav-right{
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.list-nav-right img{
+    width: 20px;
+}
+/* Main/body */
+main{
+    margin-top: 100px;    
+}
+.container-shop{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding: 20px 0px 20px 20px;
+    gap: 10px;
+}
+.container-left-list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+}
+.list-section-shop{
+    font-size: 13px;
+}
+.container-shop-all{
+    max-height: 100vh;    
+    overflow: scroll;
+}
+.text-shop{
+    font-size: var(--title-text);
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1;
+    margin: 8px 0px;
+}
+.carrousel-shop{
+    max-width: 100%;    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 10px;
+    align-items: center;
+}
+.carrousel{
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 30px 0px;
+}
+.card-shop{
+    width: 17%;    
+    flex: 0 0 auto;
+}
+.container-image-shop{
+    width: 100%;
+}
+.container-image-shop img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.container-text-shop p{
+    font-size: var(--small-text);
+    letter-spacing: 0.7px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    margin: 8px 0px 5px 0px;
+}
