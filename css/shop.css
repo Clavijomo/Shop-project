@@ -99,7 +99,7 @@ main{
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: -1;
+    letter-spacing: -1px;
     margin: 8px 0px;
 }
 .carrousel-shop{
@@ -228,4 +228,136 @@ main{
 .info-image img{
     width: 100%;
     height: 100%;
+}
+.section-info-banner{
+    display: none;
+}
+.section-information{
+    display: none;
+}
+/* Mobile */
+@media(max-width: 500px){
+    nav{
+        padding: 15px !important;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .icon h1{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .section-nav{
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+    .gift{
+        display: none;
+    }
+    .stores{
+        display: none;
+    }
+    .about-us{
+        display: none;
+    }        
+    .sign{
+        display: none;
+    }
+    .us{
+        display: none;
+    }    
+    /* Content-body */
+    .text-shop{
+        padding: 0px 8px;
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    .container-shop-all{
+        max-height: none;
+    }
+    .container-shop{
+        display: block;
+        padding: 0px;
+    }
+    .container-left-list{
+        display: none;
+    }
+    .carrousel-shop{
+        display: none;
+    }
+    .section-categories{        
+        width: 100%;
+    }
+    .grid-categories{
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .grid-product{
+        padding: 0;
+    }
+    .price-product{
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 15px;        
+    }
+    .section-info{
+        width: 100%;
+        margin: 40px 0px;
+    }
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content-text-info{
+        width: 100%;
+        padding: 30px 0px;        
+    }
+    .info-title{
+        padding: 0px 20px;
+    }
+    .title-off{
+        padding: 0px 20px;
+        font-size: 28px;
+        letter-spacing: 0px;
+    }
+    .description-off{
+        padding: 0px 20px;
+    }
+    .shop-button{
+        margin: 0px 20px;
+    }
+    .section-info-banner{
+        display: block;
+        background: #000;
+        margin-top: 30px;
+    }
+    .ads{
+        padding: 45px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .card-info p{
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+        color: #fff;
+    }
+    .card-info{
+        text-align: center;
+    }
+    .section-information{
+        display: block;
+        margin: 40px 0px 40px 0px;
+        padding: 13px;
+        background-color: #ededed;
+    }
+    .section-information p{
+        color: #626262;
+        font-size: 14px;
+        line-height: 22px;
+    }
 }
