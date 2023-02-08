@@ -238,6 +238,7 @@ main{
 /* Mobile */
 @media(max-width: 500px){
     nav{
+        position: relative;
         padding: 15px !important;
         display: flex;
         justify-content: space-around;
@@ -269,6 +270,9 @@ main{
         display: none;
     }    
     /* Content-body */
+    main{
+        margin-top: 40px;
+    }
     .text-shop{
         padding: 0px 8px;
         font-size: 28px;

@@ -375,3 +375,117 @@ footer{
     font-weight: 400;
     width: 100%;
 }
+
+/* Mobile */
+@media(max-width: 500px){
+    nav{
+        position: relative;        
+        padding: 15px !important;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .icon h1{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .section-nav{
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+    .gift{
+        display: none;
+    }
+    .stores{
+        display: none;
+    }
+    .about-us{
+        display: none;
+    }        
+    .sign{
+        display: none;
+    }
+    .us{
+        display: none;
+    }    
+    /* Content */
+    .container-article{
+        margin: 40px auto 15px auto;
+    }
+    .article{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-left-images{
+        height: 50vh;
+        overflow: none;
+    }
+    .grid-images{
+        display: none;
+    }
+    .section-categorie-image{
+        height: 50vh;
+        background-image: url('../images/mode-7.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .section-right-description{
+        padding: 0px;
+    }
+    .container-text-description{
+        margin: 20px 0px;
+    }
+    .text-off{
+        display: none;
+    }
+    .container-add-bag{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 4px;
+    }
+    .add-bag{
+        padding: 15px;
+    }
+    .details ul li{
+        line-height: 23px;
+    }
+    .materials p:last-child{
+        line-height: 23px;
+    }
+    .categories-section{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .text-shop{
+        font-size: 28px;
+    }
+    .card-shop{
+        width: 45%;
+    }
+    /* Footer */
+    .section-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .section-footer-left{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+    }
+    .footer-list:first-child{
+        font-size: 15px;
+    }
+    .footer-list{
+        font-size: 12px;
+    }
+    .text-input{
+        font-size: 14px;
+    }
+    .section-input input{
+        color: #000;
+        width: 91%;
+    }
+}
