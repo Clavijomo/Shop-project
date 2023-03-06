@@ -72,6 +72,9 @@ nav{
 }
 
 /* Content */
+main{
+    position: relative;    
+}
 .content-principal{
     background-image: url('/images/home.jpg');
     height: 100vh;
@@ -481,7 +484,20 @@ footer{
     font-weight: 400;
     width: 100%;
 }
-
+.list-footer-section ul button{
+    border: 1px solid black;
+    padding: 10px 50px;    
+    background: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.list-footer-section ul button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.2s;
+    cursor: pointer;
+}
 /* Mobile */
 @media(max-width:500px){
     nav{
