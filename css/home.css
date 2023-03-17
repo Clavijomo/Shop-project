@@ -228,6 +228,7 @@ main{
     left: 8px;
 }
 .content-button button{
+    color: #000;
     padding: 8px;
     font-size: 14px;    
     background-color: #fff;
@@ -254,6 +255,7 @@ main{
     margin: 50px 0px;
 }
 .shop-all{
+    color: #000;
     padding: 10px 25px;    
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -486,6 +488,7 @@ footer{
     width: 100%;
 }
 .list-footer-section ul button{
+    color: #000;
     border: 1px solid black;
     padding: 10px 50px;    
     background: none;
@@ -577,7 +580,7 @@ footer{
     }
     .description-carrousel-center{
         margin: 8px 0px 25px 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .description-gift{
         font-size: 13px;
@@ -589,8 +592,18 @@ footer{
     .grids{
         grid-template-columns: repeat(2, 1fr);
     }
+    .content-button button{
+        color: #000 !important;
+        padding: 8px;
+        font-size: 14px;    
+        background-color: #fff;
+        border: none;
+    }
     .section-carrousel{
         padding: 0px 0px 0px 10px;        
+    }
+    .shop-all{
+        color: #000 !important;
     }
     .carrousel{
         align-items: flex-start;     
@@ -649,6 +662,9 @@ footer{
     }
     .footer-list{
         font-size: 12px;
+    }
+    .list-footer-section ul button{
+        color: #000 !important;
     }
     .text-input{
         font-size: 14px;
