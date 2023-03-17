@@ -82,8 +82,8 @@ embed{
     .section-buttons{
         box-shadow: 0px 0px 18px 1px #00000038;        
         position: absolute;
-        padding: 10px;
-        backdrop-filter: blur(4px);                        
+        padding: 10px;              
+        background-color: #000000d9;   
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -104,7 +104,7 @@ embed{
     .back-mobile{
         border: none;
         padding: 10px 30px;
-        color: #000;        
+        color: #fff;        
         font-size: 18px;
         text-decoration: underline;
     }
