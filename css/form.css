@@ -83,7 +83,7 @@ input{
 .error{
     background-color: red;
     width: 85%;
-    margin: auto;
+    margin: 0px auto 20px auto;
     padding: 10px;
     color: #fff;
     text-align: center;
@@ -91,4 +91,30 @@ input{
 }
 .success{
     border-bottom: 1px solid green;
+}
+
+@media(max-width: 500px){
+    .content{
+        width: 90%;
+        border-radius: 5px;       
+
+        display: block;        
+    }
+    .container-image{
+        display: none;
+    }
+    .text-sign{
+        margin: 0px;
+        line-height: 25px;
+    }
+    .button-sign-in{
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+    }    
+    .back{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 10px 0px;
+    }
 }

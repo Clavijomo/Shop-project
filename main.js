@@ -14,10 +14,12 @@ function validar(e){
         error('Debes ingresar una contraseña');
         return;
     }
-    if(signBtn.value.length > 0 && signBtn.value.length <=6) {
+    
+    if(signBtn.value.length > 0 && signBtn.value.length >= 20) {
         window.location.href = 'pdf.html';
         return;
     }           
+    
     error('Contraseña incorrecta');
 }
 
@@ -32,6 +34,7 @@ function error(mensaje){
         divMensaje.remove();
     }, 3000)
     const errores = document.querySelectorAll('.error');
+    
     if(errores.length === 0) {
         formulario.appendChild(divMensaje);
     }
