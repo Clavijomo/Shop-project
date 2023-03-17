@@ -76,7 +76,7 @@ main{
     position: relative;    
 }
 .content-principal{
-    background-image: url('/images/home.jpg');
+    background-image: url('/images/model-horizontal.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
