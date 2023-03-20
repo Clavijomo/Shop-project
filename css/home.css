@@ -677,4 +677,9 @@ footer{
         color: #000;
         width: 95%;
     }
+    .investor-button{
+        color: #000 !important;
+        padding: 10px !important;
+        width: 100% !important;
+    }
 }
